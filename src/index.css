@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'Fira Code', ui-monospace, SFMono-Regular, monospace;
+  }
+}
+
+/* Custom Markdown Table Styling */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
+
+.markdown-body th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+}
+
+.markdown-body td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.markdown-body tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "AI Career Guidance Assistant",
+  "description": "Simulated Tree of Thoughts (ToT) prototype engine and multi-domain career guidance mapping system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
